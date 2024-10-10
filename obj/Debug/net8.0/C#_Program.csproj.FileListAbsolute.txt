@@ -1,0 +1,14 @@
+/Users/mohamedabdo/MAbdo/C#_Program/bin/Debug/net8.0/C#_Program
+/Users/mohamedabdo/MAbdo/C#_Program/bin/Debug/net8.0/C#_Program.deps.json
+/Users/mohamedabdo/MAbdo/C#_Program/bin/Debug/net8.0/C#_Program.runtimeconfig.json
+/Users/mohamedabdo/MAbdo/C#_Program/bin/Debug/net8.0/C#_Program.dll
+/Users/mohamedabdo/MAbdo/C#_Program/bin/Debug/net8.0/C#_Program.pdb
+/Users/mohamedabdo/MAbdo/C#_Program/obj/Debug/net8.0/C#_Program.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamedabdo/MAbdo/C#_Program/obj/Debug/net8.0/C#_Program.AssemblyInfoInputs.cache
+/Users/mohamedabdo/MAbdo/C#_Program/obj/Debug/net8.0/C#_Program.AssemblyInfo.cs
+/Users/mohamedabdo/MAbdo/C#_Program/obj/Debug/net8.0/C#_Program.csproj.CoreCompileInputs.cache
+/Users/mohamedabdo/MAbdo/C#_Program/obj/Debug/net8.0/C#_Program.dll
+/Users/mohamedabdo/MAbdo/C#_Program/obj/Debug/net8.0/refint/C#_Program.dll
+/Users/mohamedabdo/MAbdo/C#_Program/obj/Debug/net8.0/C#_Program.pdb
+/Users/mohamedabdo/MAbdo/C#_Program/obj/Debug/net8.0/C#_Program.genruntimeconfig.cache
+/Users/mohamedabdo/MAbdo/C#_Program/obj/Debug/net8.0/ref/C#_Program.dll
