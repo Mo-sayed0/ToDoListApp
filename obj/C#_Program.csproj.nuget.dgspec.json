@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mohamedabdo/MAbdo/C#_Program/C#_Program.csproj": {}
+    "/Users/mohamedabdo/Desktop/ToDoListApp/C#_Program.csproj": {}
   },
   "projects": {
-    "/Users/mohamedabdo/MAbdo/C#_Program/C#_Program.csproj": {
+    "/Users/mohamedabdo/Desktop/ToDoListApp/C#_Program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mohamedabdo/MAbdo/C#_Program/C#_Program.csproj",
+        "projectUniqueName": "/Users/mohamedabdo/Desktop/ToDoListApp/C#_Program.csproj",
         "projectName": "C#_Program",
-        "projectPath": "/Users/mohamedabdo/MAbdo/C#_Program/C#_Program.csproj",
+        "projectPath": "/Users/mohamedabdo/Desktop/ToDoListApp/C#_Program.csproj",
         "packagesPath": "/Users/mohamedabdo/.nuget/packages/",
-        "outputPath": "/Users/mohamedabdo/MAbdo/C#_Program/obj/",
+        "outputPath": "/Users/mohamedabdo/Desktop/ToDoListApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mohamedabdo/.nuget/NuGet/NuGet.Config"

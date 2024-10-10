@@ -1,13 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
 
 class ToDoListApp
 {
     static List<string> tasks = new List<string>();
+    const string FILE_NAME = "tasks.json";
 
     static void Main(string[] args)
     {
+        LoadTasks();
         ShowMenu();
+        SaveTasks();
     }
     
     static void ShowMenu()
@@ -18,7 +23,7 @@ class ToDoListApp
             Console.WriteLine("1. Add Task");
             Console.WriteLine("2. View Tasks");
             Console.WriteLine("3. Remove Task");
-            Console.WriteLine("4. Exit");
+            Console.WriteLine("4. Save and Exit");
 
             string? choice = Console.ReadLine();
 
@@ -34,7 +39,8 @@ class ToDoListApp
                     RemoveTask();
                     break;
                 case "4":
-                    Console.WriteLine("Exiting...");
+                    SaveTasks();
+                    Console.WriteLine("Tasks saved. Exiting...");
                     return;
                 default:
                     Console.WriteLine("Invalid choice. Please try again.");
@@ -89,6 +95,21 @@ class ToDoListApp
         else
         {
             Console.WriteLine("Invalid task number.");
+        }
+    }
+
+    static void SaveTasks()
+    {
+        string jsonString = JsonSerializer.Serialize(tasks);
+        File.WriteAllText(FILE_NAME, jsonString);
+    }
+
+    static void LoadTasks()
+    {
+        if (File.Exists(FILE_NAME))
+        {
+            string jsonString = File.ReadAllText(FILE_NAME);
+            tasks = JsonSerializer.Deserialize<List<string>>(jsonString) ?? new List<string>();
         }
     }
 }
